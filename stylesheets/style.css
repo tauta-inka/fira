@@ -1,0 +1,79 @@
+body {–webkit–font-family–smoothing: antialiased; –moz–osx–font–smoothing: grayscale;
+font-family: "FiraSans", sans-serif;}
+a {
+  color: inherit;
+}
+h1, p, div {
+
+  margin: 0 auto;
+}
+h1 {
+  font-family: "FiraSans", sans-serif;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 14px;
+}
+p {
+font-family: "Fira Sans", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+}
+.smallcontainer1 {
+  float: left; /*Задаем обтекание*/
+
+      width: 110px; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align: right;
+      padding-right: 20px;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer02 {
+  float: left; /*Задаем обтекание*/
+
+      width: 287px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer03 {
+  float: left; /*Задаем обтекание*/
+
+      width: 529px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer04 {
+  float: left; /*Задаем обтекание*/
+
+      width: 349px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer05 {
+  float: left; /*Задаем обтекание*/
+
+      width: 233px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+
+.largecontainer {
+      width: 1400px; margin: 0 auto;
+
+}
+section{
+  height: 40px;
+  float: left;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border: 1px solid black;}
