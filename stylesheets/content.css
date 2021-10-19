@@ -1,0 +1,268 @@
+
+body {–webkit–font-family–smoothing: antialiased; –moz–osx–font–smoothing: grayscale;
+font-family: 'Fira Sans', sans-serif;
+background-color: #D5D5D5;}
+
+a {
+  color: inherit;
+}
+h2, h1, h3, p, div {
+  margin: 0 auto;
+}
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+p {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+}
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 77px;
+  line-height: 60px;
+}
+h3 {
+  padding-top: -10px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+}
+
+
+.largecontainer1 {
+      width: 1420px; margin: 0 auto;
+      height: 1315px;
+      justify-content: center;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+
+
+}
+.mediumcontainer {
+  float: left;
+  width: 1418px; margin: 0 auto;
+  position: absolute;
+  height: 1315px;
+  border-top: 0px solid black;
+  border-bottom: 0px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+}
+.container {
+  width: 1420px; margin: 0 auto;
+  height: 470px;
+  justify-content: center;
+}
+.centralcontainer {
+  padding-top: 200px;
+  justify-content: center;
+  width: 890px;
+  height: 134px;
+}
+.c1 {
+  float: left; /*Задаем обтекание*/
+
+      width: 150px; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align: left;
+}
+.c1.specialimg {
+  float: left; /*Задаем обтекание*/
+
+      width: 170px; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      padding-right: 20px;
+      position: relative;
+      top: -25px;
+}
+.c1.special {
+  float: left; /*Задаем обтекание*/
+
+      width: 150px; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+position: relative;
+top: -10px;
+}
+.c2 {
+  float: left; /*Задаем обтекание*/
+
+      width: 367px; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align: left;
+}
+.smallcontainer1 {
+  float: left; /*Задаем обтекание*/
+
+      width: 110px; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align: right;
+      padding-right: 20px;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer01 {
+  float: left; /*Задаем обтекание*/
+
+      width: 145px; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align: right;
+      padding-right: 10px;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer02 {
+  float: left; /*Задаем обтекание*/
+
+      width: 186px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer03 {
+  float: left; /*Задаем обтекание*/
+
+      width: 376px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer04 {
+  float: left; /*Задаем обтекание*/
+
+      width: 226px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+.smallcontainer05 {
+  float: left; /*Задаем обтекание*/
+
+      width: 79px; /*Фиксируем ширину блока*/
+      height: 40px;
+      /*margin-right: 10px;*/
+      text-align: left;
+      /*Центрируем текст по горизонтали*/
+}
+
+
+
+section {
+  height: 40px;
+  float: left;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.blacksection {
+  background-color: black;
+}
+.white1 {
+  color: white;
+  font-weight: 400;
+}
+.white2 {
+  color: white;
+  font-weight: 300;
+}
+/*.openwind1 {
+position: absolute;
+left: 80px;
+top: 349px;
+width: 441px;
+height: 347px;
+outline: 2px solid #000;
+}*/
+.opwind1 {
+  position: absolute;
+  left: 905px;
+  top: 793px;
+}
+.opwind2 {
+  position: absolute;
+  left: 776px;
+  top: 684px;
+}
+.opwind3 {
+  position: absolute;
+  left: 685px;
+  top: 574px;
+}
+.opwind4 {
+  position: absolute;
+  left: 617px;
+  top: 464px;
+}
+.opwind5 {
+  position: absolute;
+  left: 496px;
+top: 354px;
+}
+.opwind6 {
+  position: absolute;
+  left: 386px;
+  top: 244px;
+}
+.opwind7 {
+  position: absolute;
+  left: 281px;
+  top: 134px;
+}
+.opwind8 {
+  position: absolute;
+  left: 120px;
+  top: 216px;
+}
+.opwind9 {
+  position: absolute;
+  left: 42px;
+  top: 349px;
+}
+.opwind10 {
+  position: absolute;
+  left: 993px;
+  top: 179px;
+}
+
+.mandarin {
+  position: absolute;
+  top: 660px;
+  left: 0px;
+}
+img   {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  }
+  .bigblock {
+position: absolute;
+height: 976px;
+left: 10px;
+  }
+  .block1 {
+
+  }
+  .block2 {
+  float: left;
+  }
+  .block3 {
+    float: left;
+  }
+  .block4 {
+position: absolute;
+
+  }
+  .blockimg {
+    position: absolute;
+    left: 799px;
+  }
