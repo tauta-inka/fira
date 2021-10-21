@@ -2,7 +2,10 @@
 body {–webkit–font-family–smoothing: antialiased; –moz–osx–font–smoothing: grayscale;
 font-family: 'Fira Sans', sans-serif;
 background-color: #D5D5D5;}
-
+* {
+  box-sizing: border-box;
+  vertical-align: top;
+}
 a {
   color: inherit;
 }
@@ -18,7 +21,8 @@ p {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 100%;
+line-height: 115%;
+padding-top: 2px;
 }
 h1 {
   font-style: normal;
@@ -39,7 +43,7 @@ h3 {
       height: 1315px;
       justify-content: center;
       border-left: 1px solid black;
-      border-right: 1px solid black;
+      border-right: 0px solid black;
 
 
 }
@@ -51,7 +55,7 @@ h3 {
   border-top: 0px solid black;
   border-bottom: 0px solid black;
   border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-right: 2px solid black;
   border-bottom: 2px solid black;
 }
 .container {
@@ -99,7 +103,7 @@ top: -10px;
 .smallcontainer1 {
   float: left; /*Задаем обтекание*/
 
-      width: 110px; /*Фиксируем ширину блока*/
+      width: 120px; /*Фиксируем ширину блока*/
       /*margin-right: 10px;*/
       text-align: right;
       padding-right: 20px;
@@ -108,7 +112,7 @@ top: -10px;
 .smallcontainer01 {
   float: left; /*Задаем обтекание*/
 
-      width: 145px; /*Фиксируем ширину блока*/
+      width: 152px; /*Фиксируем ширину блока*/
       /*margin-right: 10px;*/
       text-align: right;
       padding-right: 10px;
@@ -135,7 +139,7 @@ top: -10px;
 .smallcontainer04 {
   float: left; /*Задаем обтекание*/
 
-      width: 226px; /*Фиксируем ширину блока*/
+      width: 250px; /*Фиксируем ширину блока*/
       height: 40px;
       /*margin-right: 10px;*/
       text-align: left;
@@ -144,8 +148,8 @@ top: -10px;
 .smallcontainer05 {
   float: left; /*Задаем обтекание*/
 
-      width: 79px; /*Фиксируем ширину блока*/
-      height: 40px;
+      width: 85px; /*Фиксируем ширину блока*/
+      height: 42px;
       /*margin-right: 10px;*/
       text-align: left;
       /*Центрируем текст по горизонтали*/
@@ -154,7 +158,7 @@ top: -10px;
 
 
 section {
-  height: 40px;
+  height: 90px;
   float: left;
   justify-content: space-between;
   padding-top: 30px;
@@ -244,25 +248,307 @@ img   {
   height: 100%;
   object-fit: contain;
   }
+  .gl1 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 278px;
+    line-height: 320px;
+    letter-spacing: -20px;
+    text-align: center;
+    align-items: center;
+  }
+  .gl2 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 316px;
+    color: white;
+    line-height: 460px;
+    letter-spacing: -20px;
+    text-align: center;
+    align-items: center;
+  }
+  .superbigblock {
+    left: 20px;
+    width: 1420px; margin: 0 auto;
+    height: 973px;
+  }
+
   .bigblock {
-position: absolute;
-height: 976px;
-left: 10px;
+    position: relative;
+width: 802px;
+height: 973px;
+display: inline-block;
+vertical-align: top;
+border-top: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-bottom: 2px solid black;
   }
   .block1 {
-
+  position: relative;
+  top: 0px;
+  width: 800px;
+  height: 342px;
+  border-bottom: 2px solid black;
   }
+
+
   .block2 {
-  float: left;
+    position: relative;
+    display: inline-block;
+    width: 269px;
+    height: 477px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 316px;
+    line-height: 379px;
+    border-right: 2px solid black;
+    background-color: black;
+  }
+
+  .block33 {
+    position: relative;
+    display: inline-block;
+    width: 524px;
+    height: 477px;
+    /* border-bottom: 2px solid black; */
+
   }
   .block3 {
-    float: left;
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+   }
+  .h1table {
+    font-size: 53px;
+    font-weight: 900;
+    line-height: 50px;
   }
-  .block4 {
-position: absolute;
+  .h2table {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 18px;
+    padding-left: 40px;
 
   }
-  .blockimg {
-    position: absolute;
-    left: 799px;
+
+  .block4 {
+    position: relative;
+    display: inline-block;
+   height: 277px;
   }
+  .block41 {
+    position: relative;
+    display: inline-block;
+   height: 277px;
+  }
+  .block42 {
+    position: relative;
+    display: inline-block;
+   height: 277px;
+   padding-left: 20px;
+  }
+  /* .block42::before{ */
+    content: 'TEXT';
+    position: absolute;
+    top: 10px;
+    left: -30px;
+  /* } */
+
+  .block5 {
+ width: 800px;
+ height: 156px;
+
+  }
+  .cellar {
+    text-align: center;
+    align-items: center;
+    letter-spacing: 10px;
+    font-size: 103px;
+    font-weight: 500;
+    line-height: 150px;
+    border-top: 2px solid black;
+  }
+
+  .blockimg {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+height: 973px;
+  }
+  .superbigblock2{
+    position: relative;
+    padding-top: 140px;
+    /* padding-left: 160px;
+    padding-right: 160px; */
+
+    width: 1060px;
+height: 860px;
+  }
+  .horse1 {
+    position: relative;
+    display: inline-block;
+
+   margin: 0 auto;
+  }
+  .horse2 {
+    position: relative;
+  display: inline-block;
+  top: 220px;
+  left: -120px;
+  width: 500px;
+  height: 297px;
+    padding-top: 0px;
+     margin: 0 auto;
+  }
+  .search {
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 5.2805px;
+    background-color: #D5D5D5;
+    width: 586px;
+    height: 70px;
+  }
+  .search1 {
+     position: relative;
+  display: inline-block;
+    position: relative;
+    display: inline-block;
+    width: 452px;
+    height: 68px;
+    border-right: 1px solid black;
+  }
+  .search2 {
+    width: 120px;
+    position: relative;
+    display: inline-block;
+  }
+  .searchbutton {
+    font-size: 31px;
+    font-weight: 400;
+    padding-left: 15px;
+  padding-top: 12px;
+}
+.type {
+  padding-left: 20px;
+  padding-top: 18px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.texttips {
+  padding-left: 18px;
+  padding-top: 16px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.horsetext3 {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-left: 80px;
+}
+
+
+.tips {
+  position: relative;
+  height: 224px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 5.2805px;
+}
+
+.superblock {
+  position: relative;
+ width: 1380px;
+  margin: 0 auto;
+}
+.superbigblock3{
+  position: relative;
+display: inline-block;
+}
+.about16 {
+  position: absolute;
+  top: 590px;
+  left: 70px;
+  width: 376px;
+height: 377px
+}
+.a16 {
+  margin: 0 auto;
+font-weight: bold;
+font-size: 43px;
+line-height: 93%;
+padding-top: 12px;
+padding-left: 20px;
+}
+.b16 {
+  margin: 0 auto;
+  padding-left: 55px;
+  padding-top: 80px;
+}
+.c16 {
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 93%;
+  padding-top: 60px;
+  padding-left: 220px;
+}
+.lastbigblock {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.tab {
+  position: absolute;
+  /* display: inline-block; */
+  width: 150px;
+  height: 20px;
+  top: 100px;
+  left: 120px;
+}
+.textontab {
+  position: absolute;
+  display: inline-block;
+  top: 80px;
+  left: 60px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+}
+.textontab2 {
+  position: absolute;
+  display: inline-block;
+  top: 80px;
+  left: 220px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+}
+.textmessage{
+  position: absolute;
+  display: inline-block;
+  top: 120px;
+  left: 60px;
+  font-size: 12px;
+}
+.message {
+  position: absolute;
+width: 478.97px;
+height: 350.9px;
+left: 220px;
+top: 180px;
+}
+.Qz {
+  position: absolute;
+  left: 420px;
+  top: 400px;
+  width: 700px;
+
+}
